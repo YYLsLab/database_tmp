@@ -58,7 +58,7 @@ def summarize(directory, charge_pair):
     lines = [
         f"# VO@HfO2 {charge_pair}",
         "",
-        f"统计目录中的 {len(records)} 条记录。001 来自原始 DFT 计算，其余记录为随机生成的测试数据。",
+        f"统计目录中的 {len(records)} 条记录。001 来自原始 DFT 计算，002–010 为随机生成的测试数据。",
         "统计直接使用 JSON 中的三个能量字段。转变能级相对于 PBE VBM。方差为总体方差，分母为记录数 N。",
         "",
         "## 汇总统计",
