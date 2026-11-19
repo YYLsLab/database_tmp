@@ -1,0 +1,28 @@
+{
+  "name": "VO@HfO2",
+  "type": "(+1/0)",
+  "TransitionLevel": 3.805288,
+  "Er12": 1.195390,
+  "Er21": 0.140222,
+  "TotalEnergies_eV": {
+    "E0_R0": -241102.58942397,
+    "Eplus1_Rplus1": -241112.45766606,
+    "E0_Rplus1": -241102.29931554,
+    "Eplus1_R0": -241111.03788077
+  },
+  "CalculationParameters": {
+    "SPIN": 2,
+    "ECUT": 50,
+    "MPN123": [1,1,1,0,0,0,0],
+    "NUM_ELECTRON": {"0": 2586,"+1": 2585},
+    "WG_ERROR": 0,
+    "E_ERROR": 0,
+    "RHO_ERROR": 1e-05,
+    "RELAX_DETAIL": [1,500,0.02,0,0.01,-0.001]
+  },
+  "Host": {
+    "SPIN": 1,
+    "NUM_ELECTRON": 2592,
+    "TotalEnergy_eV": -241540.6119861
+  }
+}
